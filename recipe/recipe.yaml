@@ -1,6 +1,6 @@
 context:
   name: pixi-inject
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/pavelzw/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 041dfb98924bf925d8a47f8cc075b0a26a8a9caa7cecf4d957d7793d52108a17
+  sha256: 822267315e2f7a32abda0210a3730762dc9436d988a1a4329e7d29b1c8997189
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
