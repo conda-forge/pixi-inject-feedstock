@@ -11,7 +11,7 @@ source:
   sha256: 90aa1ef8fd40b3261c3cc0668dcc960b42c2313cc9a4a180bbc51665fbd5f830
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       # Use cmake to build aws-lc-sys, because conda's CFLAGS inject -O2 which
